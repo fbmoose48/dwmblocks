@@ -5,7 +5,7 @@ static const Block blocks[] = {
 
 	{" ", "checkupdates | wc -l",	14400,		0},
 
-	{"", "curl ipinfo.io/ip 1",	120,		0},
+	{"", "dig +short myip.opendns.com @resolver1.opendns.com",	120,		0},
 
 	{"", "date '+%a %b %d %R'",					30,		0},
 };
