@@ -3,6 +3,8 @@ static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
 	{"", "weather.sh 03053",	1800,		0},
 
+       {"", "sb-volume.sh"     120,    0},
+
 	{" ", "checkupdates | wc -l",	14400,		0},
 
 	{"", "dig +short myip.opendns.com @resolver1.opendns.com",	120,		0},
